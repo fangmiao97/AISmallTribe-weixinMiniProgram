@@ -1,0 +1,29 @@
+<!--intro/visual/visu.wxml-->
+<view class='content'>
+ <text class='maintitle'>抽象概念可视化！</text>
+ <text  class='subtitle'>卷积、神经网络、CNN和支持向量机</text>
+ <text class='minititle'>卷积的定义</text>
+ <text class='lessoncontent'>英文中的 to convolve 词源为拉丁文 convolvere，意为“卷在一起”。从数学角度说，卷积是指用来计算一个函数通过另一个函数时，两个函数有多少重叠的积分。卷积可以视为通过相乘的方式将两个函数进行混合。</text>
+ <image class='cimage' mode='aspectFit' src='https://www.chmod777.top/src/showimgs/0.gif'></image>
+ <text class='lessoncontent'>设想在图表中间有一条既高且窄的钟形曲线。曲线下的区域是积分。设想该曲线附近有第二条较短较宽的钟形曲线从图表左侧向右侧缓慢漂移。这两个函数沿X轴各点的重叠部分之积，即是其的卷积。所以在一定意义上，两个函数是被“卷在了一起”。</text>
+ <text class='minititle'>神经网络</text>
+ <text class='lessoncontent'>下图会演示神经网络在图像识别领域的一个著名应用，这个程序叫做LeNet，是一个基于多个隐层构建的神经网络。通过LeNet可以识别多种手写数字，并且达到很高的识别精度与拥有较好的鲁棒性。</text>
+ <image class='cimage' mode='aspectFit' src='https://www.chmod777.top/src/showimgs/2.gif'></image>
+ <text class='imageintro'>右下方的方形中显示的是输入计算机的图像，方形上方的红色字样“answer”后面显示的是计算机的输出。左边的三条竖直的图像列显示的是神经网络中三个隐藏层的输出，可以看出，随着层次的不断深入，越深的层次处理的细节越低，例如层3基本处理的都已经是线的细节了。LeNet的发明人就是前文介绍过的机器学习的大牛Yann LeCun(图1右者)</text>
+ <text class='minititle'>CNN如何运行</text>
+ <text class='lessoncontent'>首先，卷积网络认知图像的方式不同于人类。因此，在图像被卷积网络采集、处理时，需要以不同方式思考其含义。</text>
+ <text class='lessoncontent'>卷积网络将图像视为体，也即三维物体，而非仅用宽度和高度测量的平面。这是因为，彩色数字图像具有红－绿－蓝（RGB）编码；通过将这三色混合，生成人类肉眼可见的色谱。卷积网络将这些图像作为彼此独立、逐层堆叠的三层色彩进行收集。</text>
+ <text class='lessoncontent'>故而，卷积网络以矩形接收正常色彩的图像。这一矩形的宽度和高度由其像素点进行衡量，深度则包含三层，每层代表RGB中的一个字母。这些深度层被称为通道。</text>
+ <text class='lessoncontent'>我们以输入量和输出量来描述经过卷积网络处理的图像，在数学中以多维矩阵表示为：30x30x3。每一层的维度会发生变化，原因详见下文。</text>
+ <text class='lessoncontent'>需要特别注意图像体各维度的精确测量结果，因为这些结果是用来处理图像的线性代数运算的基础。</text>
+ <text class='lessoncontent'>对图像的各像素来说，R、G、B的强度将会以数字进行表示。该数字将是三个堆叠二维矩阵之一的元素。图像体由这些二维矩阵一起构成。</text>
+ <text class='lessoncontent'>这些数字是输入卷积网络的最初原始感官特征，卷积网络意在上述数字中寻找显著信号，从而更精确地对图像进行分类。（就像我们讨论过的其他前馈网络一样。）</text>
+ <text class='lessoncontent'>卷积网络并非对像素进行逐个处理，而是将包含多像素的方形片块经扫描进行处理。该过滤器是同样方形的矩阵，尺寸小于图像，与片块等大，也可称为。熟悉支持向量机的读者对此不会陌生。这一过滤器的工作是在像素间寻找图案。</text>
+ <image class='cimage' mode='aspectFit' src='https://www.chmod777.top/src/showimgs/1.gif'></image>
+ <text class='lessoncontent'>设想有两个矩阵，一个30x30，另一个3x3。也就是说，过滤器覆盖了图像通道表面积的十分之一。</text>
+ <text class='lessoncontent'>我们使用这块图像通道得到过滤器的点积。如果两个矩阵在相同位置均具有较高的值，则点积输出会很高。反之，则输出会很低。如此，通过一个单值（即点积输出）便可以确定底层图像的像素图案是否符合过滤器所表示的像素图案。</text>
+ <text class='minititle'>支持向量机</text>
+ <text class='lessoncontent'>我们如何在二维平面划分出一个圆形的分类界线？在二维平面可能会很困难，但是通过“核”可以将二维空间映射到三维空间，然后使用一个线性平面就可以达成类似效果。也就是说，二维平面划分出的非线性分类界线可以等价于三维平面的线性分类界线。于是，我们可以通过在三维空间中进行简单的线性划分就可以达到在二维平面中的非线性划分效果。</text>
+ <image class='cimage' mode='aspectFit' src='https://www.chmod777.top/src/showimgs/3.gif'></image>
+ <text>\r\n\r\n\r\n</text>
+</view>

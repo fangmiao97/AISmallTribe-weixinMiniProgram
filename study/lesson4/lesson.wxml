@@ -1,0 +1,7 @@
+<!--study/lesson4/lesson.wxml-->
+<view class='content'>
+ <text class='maintitle'>Alpha-zero为何这么牛？</text>
+ <text class='lessoncontent'>本篇讲述了关于谷歌Alpha-zero的一些知识</text>
+ <text>\r\n\r\n</text>
+ <video class='video' src='https://www.chmod777.top/src/video/three.mp4'></video>
+</view>

@@ -1,0 +1,21 @@
+<!--pages/flower/flower.wxml-->
+<view class='titleArea'>
+  <view class='title'>花卉识别</view>
+  <view class='intro'>介绍：在这里你可以上传一张有花朵的照片，图像识别技术会返回相应的信息！</view>
+</view>
+<view>
+  <image class= "show-image" mode="aspectFit" src="{{src}}"></image>
+</view>
+<view>
+ <button class='upbtn' bindtap="gotoShow" >点击上传照片</button> 
+</view>
+<block wx:if="{{result}}">
+ <view class='result_block'>
+  <view class='results'>属名：{{genus}}</view>
+  <view class='results'>植物名称：{{name}}</view>
+  <view class='results'>可信度：{{score}}%</view>
+  <view class='results'>拉丁名：{{latinName}}</view>
+  <view>植物例图：</view>
+  <image class='image' src='{{imageUrl}}' mode="aspectFit"></image>
+ </view>
+</block>

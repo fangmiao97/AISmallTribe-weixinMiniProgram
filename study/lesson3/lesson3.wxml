@@ -1,0 +1,7 @@
+<!--study/lesson3/lesson3.wxml-->
+<view class='content'>
+ <text class='maintitle'>六分钟了解AI</text>
+ <text class='lessoncontent'>简单的视频，理解人工智能到底是什么</text>
+ <text>\r\n</text>
+ <video class='video' src='https://www.chmod777.top/src/video/one.mp4'></video>
+</view>

@@ -1,0 +1,67 @@
+/* intro/introindex/introindex.wxss */
+.slide-image{
+  width: 100%;
+  height: 100%
+}
+.swiper{
+  width: 100%;
+  height: 400rpx
+}
+.btnGroup{
+  display: flex;
+  flex-direction: column;
+  background-color: #eeeeee
+}
+
+.txthehe{
+  color: #000000;
+  padding-left: 20rpx;
+  font-size: 32rpx
+}
+.item{
+  display: flex;
+  flex-direction: row;
+  background-color: #ffffff;
+  color: #000000;
+  width:100%;
+  height: 150rpx;
+  margin-bottom: 10rpx;
+  padding-top: 10rpx
+}
+
+.icon{
+  height: 125rpx;
+  width: 125rpx;
+  padding-right: 20rpx;
+  padding-top: 13rpx;
+  float: right
+}
+.gray_block{
+  background-color: #eeeeee;
+  height: 15rpx
+}
+.min_title{
+  font-size: 30rpx;
+  color: #aaaaaa;
+  margin-left: 10rpx
+}
+.txthehehe{
+  color: #aaa;
+  padding-left: 20rpx;
+  font-size: 30rpx
+}
+.txtgroup{
+  display: flex;
+  flex-direction: column;
+  width: 80%
+}
+.bottominfo{
+  height: 120rpx;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.info_text{
+  color: #aaa;
+  font-size: 25rpx;
+}

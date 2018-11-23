@@ -1,0 +1,38 @@
+<!--intro/bayesintro/bayesintro.wxml-->
+<view class='content'>
+ <text class='maintitle'>走进机器学习</text>
+ <text class='lessoncontent'>先来看张图吧</text>
+ <image class='cimage' mode='aspectFit' src='https://www.chmod777.top/src/showimgs/4.webp'></image>
+ <text class='lessoncontent'>这幅图上的三人是当今机器学习界的执牛耳者。中间的是Geoffrey Hinton, 加拿大多伦多大学的教授，如今被聘为“Google大脑”的负责人。右边的是Yann LeCun, 纽约大学教授，如今是Facebook人工智能实验室的主任。而左边的大家都很熟悉，Andrew Ng，中文名吴恩达，斯坦福大学副教授，曾是“百度大脑”的负责人与百度首席科学家
+这三位都是目前业界炙手可热的大牛，被互联网界大鳄求贤若渴的聘请，足见他们的重要性。而他们的研究方向，则全部都是机器学习的子类--深度学习
+</text>
+<image class='cimage' mode='aspectFit' src='https://www.chmod777.top/src/showimgs/5.webp'></image>
+ <text class='lessoncontent'>这幅图上描述的是什么？Windows Phone上的语音助手Cortana，名字来源于《光环》中士官长的助手。相比其他竞争对手，微软很迟才推出这个服务。Cortana背后的核心技术是什么，为什么它能够听懂人的语音？事实上，这个技术正是机器学习。机器学习是所有语音助手产品(包括Apple的siri与Google的Now)能够跟人交互的关键技术。
+通过上面两图，我相信大家可以看出机器学习似乎是一个很重要的，有很多未知特性的技术。
+</text>
+<text class='minititle'>1.一个故事说明什么是机器学习</text>
+ <text class='lessoncontent'>机器学习这个词是让人疑惑的，首先它是英文名称Machine Learning(简称ML)的直译，在计算界Machine一般指计算机。这个名字使用了拟人的手法，说明了这门技术是让机器“学习”的技术。但是计算机是死的，怎么可能像人类一样“学习”呢？</text>
+ <text class='lessoncontent'>传统上如果我们想让计算机工作，我们给它一串指令，然后它遵照这个指令一步步执行下去。有因有果，非常明确。但这样的方式在机器学习中行不通。机器学习根本不接受你输入的指令，相反，它接受你输入的数据! 也就是说，机器学习是一种让计算机利用数据而不是指令来进行各种工作的方法。这听起来非常不可思议，但结果上却是非常可行的。</text>
+ <text class='lessoncontent'>接下来这个例子来源于我真实的生活经验，我在思考这个问题的时候突然发现它的过程可以被扩充化为一个完整的机器学习的过程，因此我决定使用这个例子作为所有介绍的开始。这个故事称为“等人问题”。 </text>
+ <text class='imageintro'>我一个朋友小Y，他不是那么守时，最常见的表现是他经常迟到。当有一次我跟他约好3点钟在某个麦当劳见面时，在我出门的那一刻我突然想到一个问题：我现在出发合适么？我会不会又到了地点后，还要花上30分钟去等他？</text>
+ <text class='lessoncontent'>我决定采取一个策略解决这个问题。 </text>
+ <text class='lessoncontent'>我把过往跟小Y相约的经历在脑海中重现一下，看看跟他相约的次数中，迟到占了多大的比例。而我利用这来预测他这次迟到的可能性。如果这个值超出了我心里的某个界限，那我选择等一会再出发。</text>
+ <text class='imageintro'>假设我跟小Y约过5次，他迟到的次数是1次，那么他按时到的比例为80%，我心中的阈值为70%，我认为这次小Y应该不会迟到，因此我按时出门。如果小Y在5次迟到的次数中占了4次，也就是他按时到达的比例为20%，由于这个值低于我的阈值，因此我选择推迟出门的时间。</text>
+ <text class='lessoncontent'>这个方法从它的利用层面来看，又称为经验法。在经验法的思考过程中，我事实上利用了以往所有相约的数据。因此也可以称之为依据数据做的判断。依据数据所做的判断跟机器学习的思想根本上是一致的。</text>
+ <text class='lessoncontent'>刚才的思考过程我只考虑“频次”这种属性。在真实的机器学习中，这可能都不算是一个应用。一般的机器学习模型至少考虑两个量：一个是因变量，也就是我们希望预测的结果，在这个例子里就是小Y迟到与否的判断。另一个是自变量，也就是用来预测小Y是否迟到的量。</text>
+ <text class='lessoncontent'>假设我把时间作为自变量，譬如我发现小Y所有迟到的日子基本都是星期五，而在非星期五情况下他基本不迟到。于是我可以建立一个模型，来模拟小Y迟到与否跟日子是否是星期五的概率。见下图：</text>
+ <image class='cimage' mode='aspectFit' src='https://www.chmod777.top/src/showimgs/6.webp'></image>
+ <text class='lessoncontent'>这样的图就是一个最简单的机器学习模型，称之为决策树。</text>
+ <text class='lessoncontent'>当我们考虑的自变量只有一个时，情况较为简单。如果把我们的自变量再增加一个。例如小Y迟到的部分情况时是在他开车过来的时候(你可以理解为他开车水平较臭，或者路较堵)。于是我可以关联考虑这些信息。建立一个更复杂的模型，这个模型包含两个自变量与一个因变量。</text>
+ <text class='lessoncontent'>再更复杂一点，小Y的迟到跟天气也有一定的原因，例如下雨的时候，这时候我需要考虑三个自变量。</text>
+ <text class='lessoncontent'>如果我希望能够预测小Y迟到的具体时间，我可以把他每次迟到的时间跟雨量的大小以及前面考虑的自变量统一建立一个模型。于是我的模型可以预测值，例如他大概会迟到几分钟。这样可以帮助我更好的规划我出门的时间。在这样的情况下，决策树就无法很好地支撑了，因为决策树只能预测离散值。我们可以用节2所介绍的线型回归方法建立这个模型。</text>
+ <text class='lessoncontent'>如果我把这些建立模型的过程交给电脑。比如把所有的自变量和因变量输入，然后让计算机帮我生成一个模型，同时让计算机根据我当前的情况，给出我是否需要迟出门，需要迟几分钟的建议。那么计算机执行这些辅助决策的过程就是机器学习的过程。</text>
+ <text class='lessoncontent'>通过上面的分析，可以看出机器学习与人类思考的经验过程是类似的，不过它能考虑更多的情况，执行更加复杂的计算。事实上，机器学习的一个主要目的就是把人类思考归纳经验的过程转化为计算机通过对数据的处理计算得出模型的过程。经过计算机得出的模型能够以近似于人的方式解决很多灵活复杂的问题。</text>
+ <text class='lessoncontent'>让我们把机器学习的过程与人类对历史经验归纳的过程做个比对。</text>
+ <image class='cimage' mode='aspectFit' src='https://www.chmod777.top/src/showimgs/7.webp'></image>
+ <text class='lessoncontent'>机器学习中的“训练”与“预测”过程可以对应到人类的“归纳”和“推测”过程。通过这样的对应，我们可以发现，机器学习的思想并不复杂，仅仅是对人类在生活中学习成长的一个模拟。由于机器学习不是基于编程形成的结果，因此它的处理过程不是因果的逻辑，而是通过归纳思想得出的相关性结论。</text>
+ <text class='lessoncontent'>\r\n</text>
+ <text class='lessoncontent'>\r\n</text>
+ <text class='lessoncontent'>\r\n</text>
+
+</view>

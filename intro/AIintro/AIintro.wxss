@@ -1,0 +1,43 @@
+/* intro/AIintro/AIintro.wxss */
+.titleArea{
+  width: 100%;
+  flex-direction: column
+}
+.title{
+  font-size: 50rpx;
+  color: #000000;
+  padding-left: 20rpx
+}
+.intro{
+  color: #aaa;
+  font-size: 30rpx;
+  padding-top: 20rpx;
+  padding-left: 20rpx;
+  padding-right: 20rpx
+}
+.image{
+    padding-top: 20rpx;
+    width: 90%;
+    height: 360rpx;
+    display: block;
+    margin: auto
+}
+.sec_title{
+    font-size: 35rpx;
+    padding-top: 25rpx;
+    padding-left: 20rpx;
+    padding-right: 20rpx;
+    padding-bottom: 25rpx
+}
+.text{
+  font-size: 30rpx;
+  padding-left: 40rpx;
+  padding-right: 20rpx;
+  line-height: 50rpx
+}
+.text2{
+  font-size: 30rpx;
+  padding-left: 50rpx;
+  padding-right: 20rpx;
+  line-height: 40rpx
+}

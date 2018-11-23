@@ -1,0 +1,79 @@
+/* study/practice/practice.wxss */
+.title{
+  font-size: 35rpx;
+  font-weight: bold;
+  letter-spacing: 5rpx;
+  height: 100rpx;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center
+}
+.qblock{
+  width: 90%;
+  margin-left: 37.5rpx
+}
+.question{
+  padding-bottom: 50rpx;
+  font-size: 35rpx;
+}
+.noanwser{
+  margin-top: 10rpx;
+  height: 100rpx;
+  font-size: 35rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #aaa
+}
+.false{
+  margin-top: 10rpx;
+  height: 100rpx;
+  font-size: 35rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #fff;
+  background-color: #ff6369;
+}
+.right{
+  margin-top: 10rpx;
+  height: 100rpx;
+  font-size: 35rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #fff;
+  background-color: #5785d7;
+}
+.bottom1{
+  position: absolute;
+  height: 100rpx;
+  width: 100%;
+  background-color: #aaa;
+  color: #fff;
+  font-size: 35rpx;
+  letter-spacing: 5rpx;
+  bottom: 0%;
+  left: 0%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.bottom2{
+  position: absolute;
+  height: 100rpx;
+  width: 100%;
+  background-color: #5785d7;
+  color: #fff;
+  font-size: 35rpx;
+  letter-spacing: 5rpx;
+  bottom: 0%;
+  left: 0%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}

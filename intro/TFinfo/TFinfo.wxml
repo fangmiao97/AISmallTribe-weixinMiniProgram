@@ -1,0 +1,18 @@
+<!--intro/TFinfo/TFinfo.wxml-->
+<view class='titleArea'>
+  <view class='title'>TensorFlow发布面向JavaScript开发者的机器学习框架TensorFlow.js</view>
+  <image class='image' src='../../resource/tfjs.png'></image>
+  <view class='text'>2018 TensorFlow 开发者峰会于北京时间 3 月 31 日凌晨 0 点 30 分在美国加利福尼亚州计算机历史博物馆如期举行，汇集全球机器学习开发者进行为期一天的技术分享和演示。</view>
+  <view class='sec_title'>Google 发布面向 JavaScript 开发者的机器学习框架 TensorFlow.js </view>
+  <view class='text'>要在浏览器上进行机器学习更容易了！Google 发表 TensorFlow.js，TensorFlow 技术结合 Javascript，大幅降低开发者在浏览器发展机器学习的门槛。Google 表示，随着 Javascript 与机器学习技术的发展，在浏览器上已经可以完全进行机器学习的所有工作，包含定义、训练以及运行机器学习模型。</view>
+  <view class='text'>Google 工程师 Nikhil Thorat 以及 Daniel Smilkov，于 TensorFlow 开发者高峰会上现场直播，使用 TensorFlow.js 并加上摄影机与电脑视觉技术，在全浏览器环境里，教人工智能程序玩 PAC-MAN 游戏，而这个示例程序已被开源在 Github 上。</view>  
+  <view class='text'>Google 表示，在浏览器中运行机器学习，这意味着不需要安装任何函数库或者驱动程序，只要打开网页，程序就可以运行。另外，TensorFlow.js 支持 WebGL，因此也能使用 GPU 加速运算。 </view>  
+  <view class='text'>TensorFlow.js 提供三种工作流程，处理各阶段的机器学习模型。第一、开发者能将以 TensorFlow 或 Keras 预先训练好的模型，转换成 TensorFlow.js 格式，并载入到浏览器中进行推算。第二、开发者不仅可以载入一个现有的机器学习模型，还能用从使用者浏览器中收集到的图像资料，再训练这个模型，这个技术称为 Image Retraining，Google 表示，PAC- MAN 游戏示例程序就是以这个模式进行，这方法的好处是只要使用少量的资料就能让模型变得更加精准。</view>  
+  <view class='text'>当然使用者也能在浏览器中，从头开始建立一个机器学习模型，使用 TensorFlow.js 提供的 API，完全在浏览器中定义、训练以及运行模型，而这些 API 与 Keras 提供的十分相似，使用过的开发者应该可以很快上手。</view>  
+  <view class='text'>3. 发布一系列新的库与工具：例如 TensorFlowHub、TensorFlow Probability API、Nucleus、DeepVariant 等。</view>  
+  <view class='text'>在今天的几项重大宣布中，比较有趣的是面向 JavaScript 开发者的全新机器学习框架 TensorFlow.js。在下文中，机器之心对 TensorFlow.js 做了细致介绍：</view>  
+  <view class='text'>在大会的 Keynote 中，TensorFlow 团队表示基于网页的 JavaScript 库 TensorFlow.js 现在已经能训练并部署机器学习模型。我们可以使用神经网络的层级 API 构建模型，并在浏览器中使用 WebGL 创建复杂的数据可视化应用。此外 Node.js 很快就会发布，它能为网站模型提供 GPU、TPU 等快速训练与推断的方法。</view>
+   <view class='sec_title'>TensorFlow for Swift 将在四月开源</view>
+   <view class='text'>尽管这个项目还在初期阶段，但是也有很多人对此抱有期待。例如 fast.ai 创始人、前任 Kaggle 总裁 Jeremy Howard 就把这个列为峰会最重要的发布内容，而且还说：我们是不是终于可以放下 Python 了？</view>
+   <view class='text2'>来自: www.ithome.com.tw</view>
+</view>

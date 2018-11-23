@@ -1,0 +1,16 @@
+<!--pages/txtA/txtA.wxml-->
+<view class='titleArea'>
+  <view class='title'>文本分析</view>
+  <view class='intro'>介绍：在这里你可以在下方的文本框中输入（或复制）一段文本，文本的字数最好在150字以上。文本分析将会提炼出关键句</view>
+</view>
+<view class='holdPlace'>
+ <textarea placeholder="{{ msg }}" value="{{text}}" bindinput="bindKeyInput" bindtap='btnTap'/>
+    <view class='btn_area'>
+    <button size='mini' bindtap='setText1'>文本一</button>
+    <button size='mini' bindtap='setText2'>文本二</button>
+    <button size='mini' bindtap='resetText'>重置</button>
+    <button type="submit" class="btn_submit" size="mini" bindtap="submitTo">发送</button>
+    </view>
+</view>
+    <textarea value='{{ text_result }}' auto-height maxlength='0' placeholder='文本分析结果：'/>
+

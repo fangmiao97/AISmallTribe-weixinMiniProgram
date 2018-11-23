@@ -1,0 +1,21 @@
+<!--me/mefirst/mefirst.wxml-->
+<view class='info_bg'>
+ <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover" style='margin-left:30rpx'></image>
+ <text class="userinfo-nickname" style='margin-left:30rpx'>{{userInfo.nickName}}</text>
+</view>
+<view class='mythings' style='margin-top:30rpx'><!--下面的小标题选项-->
+ <image class='myimage' src='https://www.chmod777.top/src/resource/shoucang.png' style='margin-left:20rpx'></image>
+ <text class='mytext' style='margin-left:30rpx'>我的收藏</text>
+</view>
+<view class='mythings' style='margin-top:10rpx' bindtap='getpeople'><!--下面的小标题选项-->
+ <image class='myimage' src='https://www.chmod777.top/src/resource/AIpic/people.png' style='margin-left:20rpx'></image>
+ <text class='mytext' style='margin-left:30rpx'>开发人员</text>
+</view>
+<view class='mythings' style='margin-top:10rpx' bindtap='aboutapp'><!--下面的小标题选项-->
+ <image class='myimage' src='https://www.chmod777.top/src/resource/AIpic/about.png' style='margin-left:20rpx'></image>
+ <text class='mytext' style='margin-left:30rpx'>关于AI小部落</text>
+</view>
+<view class='mythings' style='margin-top:10rpx' bindtap='godashang'><!--下面的小标题选项-->
+ <image class='myimage' src='../../resource/dashang.png' style='margin-left:20rpx'></image>
+ <text class='mytext' style='margin-left:30rpx'>打赏作者</text>
+</view>

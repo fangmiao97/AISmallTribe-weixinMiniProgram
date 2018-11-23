@@ -1,0 +1,54 @@
+/* study/catalogue/catalogue.wxss */
+.bg_blue{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 180rpx;
+  background-color: #576cd4
+}
+.title{
+  position: absolute;
+  color: #ffffff;
+  font-size: 50rpx;
+  margin-left: 30rpx;
+  font-weight: bolder
+}
+.intro{
+  color: #31487d;
+  font-size: 30rpx;
+  margin-left: 37.5rpx;
+  margin-right: 37.5rpx;
+  margin-top: 30rpx;
+  line-height: 40rpx;
+}
+.minititle{
+  color: #000;
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 10rpx;
+  margin-top: -6rpx /*这是肉眼看的来调整的wori*/
+}
+
+.minititle_group{
+  display: flex;
+  flex-direction: row;
+  margin-top:50rpx
+}
+.class_block{
+  width: 90%;
+  margin-left: 37.5rpx;
+  height: 90rpx;
+  /*border-style: solid;
+  border-color: #576cd4;*/
+  border-radius: 20rpx;
+ /* border-width: 1rpx;*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  font-size: 30rpx;
+  background-color: #fafaff;
+  margin-top: 20rpx
+}

@@ -1,0 +1,189 @@
+/* pages/test/test.wxss */
+
+.bg_blue{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 400rpx;
+  background-color: #576cd4
+}
+.bgimage{
+  height: 300rpx
+}
+.bg_grey{
+ width: 100%;
+ background-color: #f7f9fd;
+ position: relative
+}
+.fixed_content{
+  position: absolute;
+  top: -150rpx;
+  left: 37.5rpx
+}
+.content_block{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 675rpx;
+  height: 330rpx;
+  background-color: #ffffff;
+  border-radius: 20rpx;
+  box-shadow: 0px 3px 12px #B1B1FD
+}
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 70rpx 30rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #000;
+  font-size: 38rpx;
+  font-weight: bold
+}
+
+.block_text{
+  display: flex;
+  flex-direction: column;
+  margin-top: 30rpx
+}
+
+.intro_text1{
+  color:#31487d;
+  font-size:30rpx;
+}
+.intro_text2{
+  color:#787fa2;
+  font-size:20rpx;
+  margin-top: 5rpx
+}
+.studystate{
+  color:#787fa2;
+  font-size:20rpx;
+  margin-top: 10rpx
+}
+.minititle{
+  color: #000;
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 10rpx;
+  margin-top: -6rpx /*这是肉眼看的来调整的wori*/
+}
+
+.minititle_group{
+  display: flex;
+  flex-direction: row;
+  margin-top:50rpx
+}
+.apply_block{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 675rpx;
+  height: 170rpx;
+  background-color: #ffffff;
+  border-radius: 20rpx;
+  box-shadow: 0px 0px 12px #CDD2FD;
+  padding-top: 25rpx
+}
+
+.txtgroup{
+  display: flex;
+  flex-direction: column;
+  width: 80%
+}
+.txthehe{
+  color: #000000;
+  padding-left: 20rpx;
+  font-size: 32rpx;
+  font-weight: bold
+}
+.txthehehe{
+  color: #787fa2;
+  padding-left: 20rpx;
+  font-size: 30rpx;
+  margin-top: 10rpx
+}
+.icon{
+  height: 125rpx;
+  width: 125rpx;
+  padding-right: 20rpx;
+  padding-top: 13rpx;
+  float: right
+}
+
+.bottominfo{
+  height: 120rpx;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.info_text{
+  color: #aaa;
+  font-size: 25rpx;
+}
+.namerow{
+  display: flex;
+  flex-direction: row
+}
+.studybtn{
+  position: absolute;
+  right: 30rpx;
+  bottom: 30rpx;
+  height: 70rpx;
+  font-size: 30rpx;
+  letter-spacing: 3rpx;
+  background-color: #576cd4;
+  color: #ffffff;
+  border-radius: 35rpx
+}
+.app_block{
+  display: flex;
+  flex-direction: row;
+  width: 675rpx;
+  height: 270rpx;
+  background-color: #ffffff;
+  border-radius: 20rpx;
+  box-shadow: 0px 0px 12px #CDD2FD;
+  padding-top: 25rpx
+}
+
+.txtgroup2{
+  display: flex;
+  flex-direction: column;
+  width: 60%
+}
+.txthehe2{
+  color: #000000;
+  padding-left: 40rpx;
+  font-size: 40rpx;
+  font-weight: bold
+}
+.txthehehe2{
+  color: #787fa2;
+  padding-left: 60rpx;
+  font-size: 30rpx;
+  margin-top: 3rpx
+}
+.icon2{
+  height: 220rpx;
+  width: 220rpx;
+  padding-right: 20rpx;
+  padding-top: 13rpx;
+  float: right
+}
+.lock_block{
+  position: absolute;
+  background-color: #ffffff;
+  color: #576cd4;
+  opacity: 0.8;
+  width: 675rpx;
+  height: 170rpx;
+  border-radius: 20rpx;
+  margin-top: -25rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}

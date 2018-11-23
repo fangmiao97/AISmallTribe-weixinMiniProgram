@@ -1,0 +1,57 @@
+<!--intro/introindex/introindex.wxml-->
+<swiper class='swiper' indicator-dots="true" autoplay="true" interval="5000" duration="1000" indicator-color='#eeeeee' indicator-active-color='#82a6f5'>
+    <swiper-item>
+      <image src="../../resource/tfjscover.png" class="slide-image" bindtap='diractor1'/>
+    </swiper-item>
+    <swiper-item>
+      <image src="https://www.chmod777.top/src/resource/slide2.png" class="slide-image" bindtap='diractor2'/>
+    </swiper-item>
+    <swiper-item>
+      <image src="https://www.chmod777.top/src/resource/slide3.png" class="slide-image" bindtap='diractor3'/>
+    </swiper-item>
+</swiper>
+<view class='gray_block'/>
+<view class='min_title'>机器学习相关推荐</view>
+  <view class='btnGroup'>
+     <view class='item' bindtap='AIintro'>
+      <view class='txtgroup'>
+      <text class='txthehe'>人工智能、机器学习和深度学习关系与简介</text>
+      <text class='txthehehe'>这个小程序想对你说</text>
+      </view>
+      <image class='icon' src='https://www.chmod777.top/src/resource/diannao.png' mode='aspectFit'></image>
+     </view>
+     <view class='item' bindtap='bayesintro'>
+      <view class='txtgroup'>
+      <text class='txthehe'>AI与我们</text>
+      <text class='txthehehe'>人工智能在生活中有什么应用呢？</text>
+      </view>
+      <image class='icon' src='https://www.chmod777.top/src/resource/zhinengjixiebi.png' mode='aspectFit'></image>
+     </view>
+     <view class='item' bindtap='treeintro'>
+      <view class='txtgroup'>
+      <text class='txthehe'>决策树简介</text>
+      <text class='txthehehe'>简单讲解CART算法</text>
+      </view>
+      <image class='icon' src='https://www.chmod777.top/src/resource/shu.png' mode='aspectFit'></image>
+     </view>
+     <view class='item' bindtap='bayesintro'>
+      <view class='txtgroup'>
+      <text class='txthehe'>走近机器学习（一）</text>
+      <text class='txthehehe'>一个故事说明什么是机器学习</text>
+      </view>
+      <image class='icon' src='https://www.chmod777.top/src/resource/biaoqian.png' mode='aspectFit'></image>
+     </view>
+     <view class='item' bindtap='NNintro'>
+      <view class='txtgroup'>
+      <text class='txthehe'>一眼看清</text>
+      <text class='txthehehe'>将卷积、神经网络可视化</text>
+      </view>
+      <image class='icon' src='https://www.chmod777.top/src/resource/shenjingwangluo.png' mode='aspectFit'></image>
+     </view>
+     <view class='bottominfo'><!--底部信息-->
+    <text class='info_text' style='margin-top:30rpx; margin-left:265rpx'>更多文章敬请期待</text>
+    <text class='info_text' style='margin-left:275rpx'>HFUT-开心就好</text>
+   </view>
+  </view>
+
+

@@ -1,0 +1,12 @@
+<!--pages/getAPI/getAPI.wxml-->
+<text>测试页：一定要成功！</text>
+
+<view>
+ <view class='btnA'>
+  <button type='primary' bindtap="getAPITAP">获取</button>
+ </view>
+ <view>
+   <textarea value='{{ text }}' style='width:95%;' auto-height maxlength='0' placeholder='where are you?'/>
+   <image src='{{ text }}'></image>
+ </view>
+ </view>

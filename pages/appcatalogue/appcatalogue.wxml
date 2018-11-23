@@ -1,0 +1,48 @@
+<!--pages/appcatalogue/appcatalogue.wxml-->
+<view class='bg_blue'>
+ <text class='title'>应用体验馆</text>
+ <text class='intro'>在这里你可以体验一下机器学习小应用</text>
+ <text class='intro'>我们旨在向大众介绍AI的应用领域，真实场景下应用更加复杂和完善</text>
+ <text class='intro'>更多应用体验请前往主页学习相关课程，即可解锁</text>
+</view>
+<view class='content_table'>
+   <view class='apply_block' style='margin-top:20rpx' bindtap='AIChat'><!--应用-->
+      <view class='txtgroup'>
+      <text class='txthehe'>AI聊天机器人</text>
+      <text class='txthehehe'>一起来和图灵机器人聊天吧！</text>
+      </view>
+      <image class='icon' src='https://www.chmod777.top/src/resource/rengongzhinengjiqiren.png' mode='aspectFit'></image>
+   </view>
+   <view class='apply_block' style='margin-top:20rpx' bindtap='getTree'><!--应用-->
+     <view class='txtgroup'>
+     <text class='txthehe'>尝试构建决策树吧</text>
+     <text class='txthehehe'>用自己的数据构建可以看见的决策树吧</text>
+     </view>
+     <image class='icon' src='https://www.chmod777.top/src/resource/shuzhuangguanxiwangluotu.png'></image>
+   </view>
+   <view class='apply_block' style='margin-top:20rpx' bindtap='txtA'><!--应用-->
+     <view class='txtgroup'>
+     <text class='txthehe'>文本分析</text>
+     <text class='txthehehe'>从文章中提取出关键信息</text>
+     </view>
+     <image class='icon' src='https://www.chmod777.top/src/resource/guanlianxitongwenbenqueren.png'></image>
+   </view>
+   <view class='apply_block' style='margin-top:20rpx' bindtap='getImage'><!--应用-->
+     <view class='txtgroup'>
+     <text class='txthehe'>面部细节分析</text>
+     <text class='txthehehe'>上传一张图，娱乐娱乐？</text>
+     </view>
+     <image class='icon' src='https://www.chmod777.top/src/resource/renlianshibie.png'></image>
+   </view>
+   <view class='apply_block' style='margin-top:20rpx' bindtap='getFlower'><!--应用-->
+     <view class='txtgroup'>
+     <text class='txthehe'>看图识花</text>
+     <text class='txthehehe'>上传照片，识别花的种类</text>
+     </view>
+     <image class='icon' src='https://www.chmod777.top/src/resource/chahua.png'></image>
+   </view>
+   <view class='bottominfo'><!--底部信息-->
+    <text class='info_text' style='margin-top:30rpx; margin-left:215rpx'>更多应用请前往学习解锁</text>
+    <text class='info_text' style='margin-left:255rpx'>HFUT-开心就好</text>
+   </view>
+</view>

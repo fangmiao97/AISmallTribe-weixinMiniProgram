@@ -1,0 +1,62 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/AIChat/AIChat",
+    "pages/tree/tree",
+    "pages/txtA/txtA",
+    "intro/introindex/introindex",
+    "intro/TFinfo/TFinfo",
+    "intro/ABinfo/ABinfo",
+    "intro/bookinfo/bookinfo",
+    "intro/AIintro/AIintro",
+    "intro/closetoML/bayesintro",
+    "intro/treeintro/treeintro",
+    "pages/image/image",
+    "pages/flower/flower",
+    "study/catalogue/catalogue",
+    "pages/appcatalogue/appcatalogue",
+    "me/mefirst/mefirst",
+    "study/lesson1/lesson",
+    "study/practice1/practice",
+    "study/text/text",
+    "me/dashang/dashang",
+    "study/lesson2/lesson",
+    "study/lesson2/practice",
+    "intro/visual/visu",
+    "study/lesson3/lesson3",
+    "study/lesson4/lesson"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#576cd4",
+    "navigationBarTitleText": "AI小部落",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#576cd4"
+  },
+  "tabBar": {
+    "color": "#dddddd",
+    "selectedColor": "#576cd4",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "体验馆",
+        "iconPath": "resource/应用.png",
+        "selectedIconPath": "resource/应用2.png"
+      },
+      {
+        "pagePath": "intro/introindex/introindex",
+        "text": "知识库",
+        "iconPath": "resource/box.png",
+        "selectedIconPath": "resource/box2.png"
+      },
+      {
+        "pagePath": "me/mefirst/mefirst",
+        "text": "我",
+        "iconPath": "resource/我2.png",
+        "selectedIconPath": "resource/我.png"
+      }
+    ]
+  }
+}

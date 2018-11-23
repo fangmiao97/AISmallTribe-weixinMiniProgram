@@ -1,0 +1,19 @@
+<!--study/practice/practice.wxml-->
+<view class='title'>第{{num}}题</view>
+<view wx:if='{{q1}}' class='qblock'>
+ <view class='question'>“人工智能”这个概念是在什么时候提出的？</view>
+ <view class='{{selectionA1}}' bindtap='selectA1'>A选项——1956年</view>
+ <view class='{{selectionB1}}' bindtap='selectB1'>B选项——1963年</view>
+ <view class='{{selectionC1}}' bindtap='selectC1'>C选项——2015年</view>
+ <view class='{{selectionD1}}' bindtap='selectD1'>D选项——1955年</view>
+</view>
+<view wx:if='{{q2}}' class='qblock'>
+ <view class='question'>Facebook的人脸识别属于：</view>
+ <view class='{{selectionA2}}' bindtap='selectA2'>A选项弱人工智能</view>
+ <view class='{{selectionB2}}' bindtap='selectB2'>B选项强人工智能</view>
+ <view class='{{selectionC2}}' bindtap='selectC2'>C选项专家系统</view>
+ <view class='{{selectionD2}}' bindtap='selectD2'>D选项深度学习</view>
+</view>
+<view wx:if='{{bottom1}}' class='bottom1'>下一题</view>
+<view wx:if='{{bottom2}}' class='bottom2' bindtap='nextq'>下一题</view>
+<view wx:if='{{bottom3}}' class='bottom2' bindtap='backc'>目录</view>

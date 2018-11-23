@@ -1,0 +1,82 @@
+/* study/lesson1/lesson.wxss */
+.content{
+  width: 90%;
+  margin-left: 37.5rpx;
+  display: flex;
+  flex-direction: column
+}
+.maintitle{
+  padding-top: 10rpx;
+  padding-bottom: 10rpx;
+  font-size: 50rpx;
+  font-weight: bold
+}
+.subtitle{
+  font-size: 40rpx;
+  padding-bottom: 100rpx
+}
+.minititle{
+  padding-top: 20rpx;
+  padding-bottom: 20rpx;
+  font-size: 40rpx;
+  font-weight: bold
+}
+.lessoncontent{
+  padding-top: 15rpx;
+  font-size: 38rpx
+}
+.cimage{
+  height: 360rpx;
+  width: 90%;
+  display: block;
+  margin: auto
+}
+.imageintro{
+  margin: auto;
+  font-size: 30rpx;
+  color: #aaa
+}
+.video{
+  width: 90%;
+  margin: auto;
+  height: 360rpx
+}
+.bottomstudyleft{
+  position: fixed;
+  bottom: 0%;
+  left: 0%;
+  width: 50%;
+  height: 100rpx;
+  background-color: #576cd4;
+  color: #fff;
+  font-size: 35rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 5rpx;
+  border-color: #576cd4;
+  border-width: 1rpx;
+  border-style: solid
+}
+.bottomstudyright{
+  position: fixed;
+  bottom: 0%;
+  right: 0%;
+  width: 50%;
+  height: 100rpx;
+  background-color: #fff;
+  color: #576cd4;
+  font-size: 35rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 5rpx;
+  border-top-color: #576cd4;
+  border-bottom-color: #fff;
+  border-right-color: #fff;
+  border-width: 1rpx;
+  border-style: solid
+}
+

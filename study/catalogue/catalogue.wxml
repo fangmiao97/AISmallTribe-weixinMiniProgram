@@ -1,0 +1,21 @@
+<!--study/catalogue/catalogue.wxml-->
+<view class='bg_blue'>
+  <text class='title' style='bottom:85rpx'>AI Training</text>
+  <text class='title' style='bottom:25rpx'>人工智能小课程</text>
+</view>
+<view class='minititle_group' style='margin-left:37.5rpx'><!--小标题组-->
+   <image src='../../resource/mini_title.png' style='height:20px; width:5px;' mode='aspectFix'></image>
+   <text class='minititle'>说明</text>
+</view>
+<view class='intro'>
+ <text>在这里我们为你准备了几个简单易懂的关于人工智能的课程。零基础理解人工智能、机器学习和深度学习之间的关系，还能了解机器学习中的经典算法思想。完成每节内容后的小测试可以解锁更多小应用哦~</text>
+</view>
+<view style='height:1px; width:90%; margin-top:30rpx; margin-left:37.5rpx; background-color:#6070ff'></view>
+<view class='minititle_group' style='margin-left:37.5rpx'><!--小标题组-->
+   <image src='../../resource/mini_title.png' style='height:20px; width:5px;' mode='aspectFix'></image>
+   <text class='minititle'>章节</text>
+</view>
+<view class='class_block' bindtap='golesson1'>人工智能、机器学习和深度学习的区别（一）</view>
+<view class='class_block' bindtap='gotext'>人工智能、机器学习和深度学习的区别（二）</view>
+<view class='class_block' bindtap='golesson3'>视频课：六分钟动画揭开AI神秘面纱</view>
+<view class='class_block' bindtap='golesson4'>视频课：Alpha-zero为啥这么牛？</view>

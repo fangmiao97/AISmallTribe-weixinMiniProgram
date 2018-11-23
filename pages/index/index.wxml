@@ -1,0 +1,59 @@
+<!--pages/test/test.wxml-->
+<view class='bg_blue'>
+ <image style='position:absolute; right:37.5rpx; height:35px; width:145px' mode='aspectFit' src='../../resource/bgword.png'></image>
+ <image style='position:absolute; right:42rpx; top:40px; height:35px; width:114px' mode='aspectFit' src='../../resource/bgword2.png'></image>
+ <image class='bgimage' src='https://www.chmod777.top/src/resource/bg_kantuwang.png' mode='aspectFit'></image>
+</view>
+<view class='bg_grey'>
+ <view class='fixed_content'><!--浮动的内容框-->
+   <view class='content_block'><!--用户信息框-->
+       <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+       <view class='block_text'><!--文字部分-->
+        <view class='namerow'>
+         <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+         <image style='height:38rpx; width:38rpx; margin-top:10rpx; margin-left:10rpx' src='https://www.chmod777.top/src/resource/xuexi.png'></image>
+         <text class='studystate' style='margin-top:14rpx'>{{studystate}}</text>
+        </view>
+        <text class='intro_text1'>欢迎您！</text>
+        <text class='intro_text2'>在这里你可以体验多种机器学习的小应用</text>
+        <text class='intro_text2'>在知识库可以了解到人工智能领域知识与咨询</text>
+        <text class='intro_text2'>加入学习，解锁更多体验应用吧</text>
+       </view>
+       <button bindtap='study' class='studybtn'>{{study}}</button>
+   </view>
+   <view class='minititle_group'><!--小标题组-->
+   <image src='https://www.chmod777.top/src/resource/mini_title.png' style='height:20px; width:5px;' mode='aspectFix'></image>
+   <text class='minititle'>开始体验吧</text>
+   </view>
+    <view class='app_block' style='margin-top:20rpx' bindtap='toCatalogue'><!--应用-->
+      <view class='txtgroup2'>
+      <text class='txthehe2'>AI体验馆</text>
+      <text class='txthehehe2'>点击进入体验</text>
+      <text class='txthehehe2'>☞图灵聊天机器人</text>
+      <text class='txthehehe2'>☞构建决策树</text>
+      <text class='txthehehe2'>☞面部细节分析...</text>
+      </view>
+      <image class='icon2' src='https://www.chmod777.top/src/resource/appimage.png' mode='aspectFit'></image>
+   </view>
+   <view class='minititle_group'><!--小标题组-->
+   <image src='../../resource/mini_title.png' style='height:20px; width:5px;' mode='aspectFix'></image>
+   <text class='minititle'>待解锁应用</text>
+   </view>
+   <view class='apply_block' style='margin-top:20rpx'><!--待解锁应用-->
+     <view class='txtgroup'>
+     <text class='txthehe'>智能玩游戏</text>
+     <text class='txthehehe'>让AI带你玩2048！</text>
+     </view>
+     <image class='icon' src='https://www.chmod777.top/src/resource/youxi.png'></image>
+     <view class='lock_block'>
+      <image src='https://www.chmod777.top/src/resource/suoding.png' style='height:50rpx; width:50rpx; margin-top:25rpx'></image>
+      <text style='font-size:30rpx; margin-top:25rpx'>完成学习任务才可解锁</text>
+      <text style='font-size:30rpx'>快点加入学习吧</text>
+     </view>
+   </view>
+   <view class='bottominfo'><!--底部信息-->
+    <text class='info_text' style='margin-top:30rpx; margin-left:245rpx'>更多应用敬请期待</text>
+    <text class='info_text' style='margin-left:255rpx'>HFUT-开心就好</text>
+   </view>
+ </view>
+</view>

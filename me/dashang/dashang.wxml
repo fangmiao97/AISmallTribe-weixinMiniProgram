@@ -1,0 +1,3 @@
+<!--me/dashang/dashang.wxml-->
+<text>打赏作者，点击图片立即保存二维码至系统相册</text>
+<image src='../../resource/QR.png' style='width:90%; margin:auto' mode='aspectFit' bindtap='save'></image>

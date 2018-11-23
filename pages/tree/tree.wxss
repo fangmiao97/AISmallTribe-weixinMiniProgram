@@ -1,0 +1,52 @@
+/* pages/tree/tree.wxss */
+.all{
+  display: flex;
+  flex-direction: column
+}
+.txtArea{
+  width: 100%;
+  height: 300rpx
+}
+
+.titleArea{
+  width: 100%;
+  height: 400rpx;
+  flex-direction: column
+}
+.title{
+  font-size: 50rpx;
+  color: #576cd4;
+  padding-left: 20rpx
+}
+.intro{
+  color: #aaa;
+  font-size: 30rpx;
+  padding-left: 20rpx;
+  padding-right: 20rpx
+}
+.array_area{
+  height:300rpx;
+  background: #efefef;
+  border:1px solid #ddd;
+  padding: 15rpx 20rpx;
+  display: flex;
+  flex-direction: row
+}
+.treeArray{
+  font-size: 44.5rpx;
+  padding: 5rpx 30rpx;
+  background-color: #fff;
+  width: 36%;
+  height: 280rpx;
+  border-radius: 5rpx;
+  margin: 0 50rpx
+}
+.btn_area{
+ float: right;
+ display: flex;
+ flex-direction: column 
+}
+.btn{
+  width: 220rpx;
+  margin: 20rpx
+}

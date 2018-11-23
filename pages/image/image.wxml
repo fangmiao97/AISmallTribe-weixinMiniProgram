@@ -1,0 +1,18 @@
+<!--pages/image/image.wxml-->
+<view class='titleArea'>
+  <view class='title'>面部细节分析</view>
+  <view class='intro'>介绍：在这里你可以上传一张有人物的照片，图像识别技术会返回相应的信息！</view>
+</view>
+<view>
+  <image class= "show-image" mode="aspectFit" src="{{src}}"></image>
+</view>
+<view>
+ <button class='upbtn' bindtap="gotoShow" >点击上传照片</button> 
+</view>
+<block wx:if="{{result}}">
+ <view class='result_block'>
+  <view class='results'>年龄：{{age}}</view>
+  <view class='results'>性别：{{gender}}（0表示女，1表示男）</view>
+  <view class='results'>眼镜：{{glass}}（0表示不戴眼镜）</view>
+ </view>
+</block>

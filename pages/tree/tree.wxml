@@ -1,0 +1,23 @@
+<!--pages/tree/tree.wxml-->
+<view class="all">
+<view class='titleArea'>
+  <view class='title'>一起来创建决策树吧</view>
+  <view class='intro'>　　介绍：在这里你可以输入如下格式的训练数据进行决策树的构造，点击构造决策树则可以查看构造出的决策树。</view>
+  <view class='intro'>　　决策树算法主要用于分类，输入要判断的数据，最后会给出该数据所属类别的结果。具体思想请阅览知识库中关于决策树的文章</view>
+  <view class='intro'>　　用于构造树的训练数据集包括特征数据和类别，如下所示：</view><!--全角空格-->
+</view> 
+<view class='array_area'>
+ <textarea class="treeArray" placeholder='{{ msg }}' value="{{treeArray}}"  bindtap='btnTap'/>
+  <view class='btn_area'>
+  <button bindtap='getTree' class='btn' size='mini'>获取决策树</button>
+  <button bindtap='getTreeA2' class='btn' size='mini'>数据集一</button>
+  <button bindtap='getTreeA3' class='btn' size='mini'>数据集二</button>
+  </view>
+</view>
+<view>
+ <view class='txtArea'>
+  <view class='intro'>以下为构造出的决策树：</view>
+  <image src='{{ tree }}'></image>
+ </view>
+</view>
+</view>
