@@ -7,7 +7,7 @@
 
 ## display
 ### 登录授权
-<img src="https://puui.qpic.cn/fans_admin/0/3_914713125_1561997188319/0" width = 40% align = center>
+<img src="https://puui.qpic.cn/fans_admin/0/3_914713125_1561997188319/0" width = 40% div align = center>
 
 ### 体验馆(主页）
 * 体验馆功能模块展示
