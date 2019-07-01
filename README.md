@@ -7,4 +7,4 @@
 
 ## display
 * 登录授权
-![](https://puui.qpic.cn/fans_admin/0/3_914713125_1561997188319/0)
+<img src="https://puui.qpic.cn/fans_admin/0/3_914713125_1561997188319/0" width = 30% height = 30% >
