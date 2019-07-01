@@ -7,7 +7,7 @@
 
 ## display
 ### 登录授权
-<img src="https://puui.qpic.cn/fans_admin/0/3_914713125_1561997188319/0" width = 40%>
+<img src="https://puui.qpic.cn/fans_admin/0/3_914713125_1561997188319/0" width = 40% display:block margin:0 auto>
 
 ### 体验馆(主页）
 * 体验馆功能模块展示
@@ -21,6 +21,7 @@
 <img src="https://puui.qpic.cn/fans_admin/0/3_584436871_1561998340421/0" width = 40%>
 
 * 课程实例
+
 <img src="https://puui.qpic.cn/fans_admin/0/3_584436871_1561998412553/0" width = 30%><img src="https://puui.qpic.cn/fans_admin/0/3_584436871_1561998453469/0" width = 30%><img src="https://puui.qpic.cn/fans_admin/0/3_118825193_1561998608379/0" width = 30%>
 
 * 小课程测试题
@@ -34,7 +35,7 @@
 
 * 文本分析
 <img src="https://puui.qpic.cn/fans_admin/0/3_118825193_1561997887001/0" width = 40%>
-<img src="https://puui.qpic.cn/fans_admin/0/3_584436871_1561998655346/0">
+<img src="https://puui.qpic.cn/fans_admin/0/3_584436871_1561998655346/0" width = 40%>
 * 构建决策树
 <img src="https://puui.qpic.cn/fans_admin/0/3_135519633_1561997998868/0" width = 40%>
 
@@ -46,5 +47,16 @@
 
 #### 待解锁应用
 <img src="https://puui.qpic.cn/fans_admin/0/3_584436871_1561999002107/0">
+
+### 知识库
+* 主页
+<img src="https://puui.qpic.cn/fans_admin/0/3_118825193_1561999119380/0" width = 40%>
+
+* 文章展示
+<img src="https://puui.qpic.cn/fans_admin/0/3_118825193_1561999119380/0" width = 40%>
+
+* 算法可视化展示
+<img src="https://puui.qpic.cn/fans_admin/0/3_584436871_1561999246087/0" width = 40%>
+
 
 
