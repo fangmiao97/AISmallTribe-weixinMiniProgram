@@ -25,9 +25,7 @@
 
 * 课程实例
 
-<center class="half">
 <img src="https://puui.qpic.cn/fans_admin/0/3_584436871_1561998412553/0" width = 30%><img src="https://puui.qpic.cn/fans_admin/0/3_584436871_1561998453469/0" width = 30%><img src="https://puui.qpic.cn/fans_admin/0/3_118825193_1561998608379/0" width = 30%>
-  </center>
 
 * 小课程测试题
 <img src="https://puui.qpic.cn/fans_admin/0/3_584436871_1561998655346/0" width = 40%>
